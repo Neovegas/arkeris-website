@@ -35,7 +35,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(24, 24, 29, 0.9); /* Background color with 100% opacity */
+  background-color: rgba(28,28,32, 0.9); /* Background color with 100% opacity */
   z-index: -1; /* Ensure it's behind the SVG */
   display: flex;
   justify-content: center;
