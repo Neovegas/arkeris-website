@@ -11,7 +11,7 @@ export default {
   key: readFileSync('/etc/letsencrypt/live/arkeris.net/privkey.pem'),
   cert: readFileSync('/etc/letsencrypt/live/arkeris.net/fullchain.pem'),
  
-};
+}
 ,
   },
 };
