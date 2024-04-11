@@ -9,10 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "https": "^1.0.0",
+    "install": "^0.13.0",
     "mkcert": "^3.2.0",
+    "npm": "^10.5.2",
+    "path": "^0.12.7",
     "vue": "^3.4.21",
-    "vuetify": "^3.4.0-beta.1"
+    "vue-owl-carousel": "^2.0.3",
+    "vuetify": "^3.5.15"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
