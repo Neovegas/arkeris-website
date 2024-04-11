@@ -3,14 +3,15 @@ import vue from '@vitejs/plugin-vue'
 import { readFileSync } from 'fs';
 import { createServer } from 'https';
 
-const sslConfig = {
+export default {
+  plugins: [vue()],
+  
+  server: {
+    https: {
   key: readFileSync('/etc/letsencrypt/live/arkeris.net/privkey.pem'),
   cert: readFileSync('/etc/letsencrypt/live/arkeris.net/fullchain.pem'),
  
 };
-
-export default {
-  server: {
-    https: sslConfig,
+,
   },
 };
