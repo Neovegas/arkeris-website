@@ -5,7 +5,7 @@ import { createServer } from 'https';
 
 export default {
   plugins: [vue()],
-  /*
+  
   server: {
     https: {
   key: readFileSync('/etc/letsencrypt/live/arkeris.net/privkey.pem'),
@@ -13,5 +13,5 @@ export default {
  
   }
   
-  },,*/
+  },,
 };
