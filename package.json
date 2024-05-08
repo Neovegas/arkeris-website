@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "express": "^4.19.2",
     "https": "^1.0.0",
     "install": "^0.13.0",
+    "material-design-icons-iconfont": "^6.7.0",
+    "material-icons": "^1.13.12",
     "mkcert": "^3.2.0",
     "node": "^18.20.2",
     "npm": "^10.5.2",

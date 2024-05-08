@@ -2,13 +2,15 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import { createVuetify } from 'vuetify';
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
-
-// Create a new Vue app instance
-const app = createApp(App);
-
-// Assuming you have a Vuetify plugin installation method, use it like this
-app.use(createVuetify());
-
-// Mount the app to the DOM
-app.mount('#app');
+import '@mdi/font/css/materialdesignicons.css'
+const vuetify = createVuetify({ theme: {
+        defaultTheme: 'dark'
+    },
+    components,
+    directives
+  })
+  
+  createApp(App).use(vuetify).mount('#app')

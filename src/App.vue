@@ -1,14 +1,35 @@
+
+
+
 <template>
 
     <div class="background-color"></div> <!-- Background color -->
     <div class="content-container">
-      <a class="logo-text-container">
+      <div class="logo-text-container">
         <img src="./assets/arkeris.logo.svg" class="logo vue" alt="Vue logo" />
-        <span>Arkeris Keyboard Maker</span>
-      </a>
+        <div>
+          <a style="color:#FFFFFF;font-weight:bold;">Arkeris</a>
+          <a style="color:#FFFFFF;font-weight:bold;"> keyboards</a>
+        </div>
+      </div>
+
+      <div class="container p-5">
+        <ProductGallery></ProductGallery>
+      </div>
+
     </div>
 
 </template>
+
+<script>
+import ProductGallery from './components/ProductGallery.vue';
+
+export default {
+  components: {
+    ProductGallery
+  }
+}
+</script>
 
 <style scoped>
 
@@ -35,7 +56,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(28,28,32, 0.9); /* Background color with 100% opacity */
+  background-color: #161616; /* Background color with 100% opacity */
   z-index: -1; /* Ensure it's behind the SVG */
   display: flex;
   justify-content: center;
